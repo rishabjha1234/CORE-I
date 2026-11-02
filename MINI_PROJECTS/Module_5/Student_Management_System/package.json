@@ -1,0 +1,16 @@
+{
+  "name": "student-result-management-system",
+  "version": "1.0.0",
+  "description": "A beginner-friendly MongoDB CRUD API using Express and Mongoose",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2"
+  }
+}

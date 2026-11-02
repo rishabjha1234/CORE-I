@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Portals</title>
+</head>
+<body>
+
+   
+
+    <h1>Student Registration Portal</h1>
+
+    <p>
+        Welcome to XYZ Institute.
+        Please fill out the registration form below.
+    </p>
+
+    <hr>
+
+
+
+    <h2>Student Profile</h2>
+
+    <img src="./istockphoto-1487465664-2048x2048.jpg" alt="this is user profile image" width="200">
+
+   
+
+
+   
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+
+        <label for="name">Full Name:</label>
+
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+        >
+
+        <br><br>
+
+
+
+        <label for="email">Email:</label>
+
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+        >
+
+        <br><br>
+
+
+
+        <label for="password">Password:</label>
+
+        <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+        >
+
+        <br><br>
+
+
+
+        <label for="phone">Phone Number:</label>
+
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Enter your phone number"
+        >
+
+        <br><br>
+
+
+
+        <label for="dob">Date of Birth:</label>
+
+        <input
+            type="date"
+            id="dob"
+            name="dob"
+        >
+
+        <br><br>
+
+
+
+        <p>Gender:</p>
+
+        <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="male"
+        >
+
+        <label for="male">Male</label>
+
+
+        <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+        >
+
+        <label for="female">Female</label>
+
+
+        <input
+            type="radio"
+            id="other"
+            name="gender"
+            value="other"
+        >
+
+        <label for="other">Other</label>
+
+        <br><br>
+
+
+
+        <p>Skills:</p>
+
+        <input
+            type="checkbox"
+            id="html"
+            name="skills"
+            value="html"
+        >
+
+        <label for="html">HTML</label>
+
+
+        <input
+            type="checkbox"
+            id="css"
+            name="skills"
+            value="css"
+        >
+
+        <label for="css">CSS</label>
+
+
+        <input
+            type="checkbox"
+            id="javascript"
+            name="skills"
+            value="javascript"
+        >
+
+        <label for="javascript">JavaScript</label>
+
+
+        <input
+            type="checkbox"
+            id="react"
+            name="skills"
+            value="react"
+        >
+
+        <label for="react">React</label>
+
+        <br><br>
+
+
+
+        <label for="course">Select Course:</label>
+
+        <select
+            id="course"
+            name="course"
+        >
+
+            <option value="">
+                -- Select Course --
+            </option>
+
+            <option value="html">
+                HTML
+            </option>
+
+            <option value="css">
+                CSS
+            </option>
+
+            <option value="javascript">
+                JavaScript
+            </option>
+
+            <option value="react">
+                React
+            </option>
+
+        </select>
+
+       
+        <br><br>
+
+
+
+        <p>Preferred Learning Mode:</p>
+
+        <input
+            type="radio"
+            id="online"
+            name="learning_mode"
+            value="online"
+        >
+
+        <label for="online">Online</label>
+
+
+        <input
+            type="radio"
+            id="offline"
+            name="learning_mode"
+            value="offline"
+        >
+
+        <label for="offline">Offline</label>
+
+        <br><br>
+
+
+
+        <label for="qualification">
+            Highest Qualification:
+        </label>
+
+        <select
+            id="qualification"
+            name="qualification"
+        >
+
+            <option value="">
+                -- Select Qualification --
+            </option>
+
+            <option value="10th">
+                10th
+            </option>
+
+            <option value="12th">
+                12th
+            </option>
+
+            <option value="diploma">
+                Diploma
+            </option>
+
+            <option value="graduation">
+                Graduation
+            </option>
+
+            <option value="post-graduation">
+                Post Graduation
+            </option>
+
+        </select>
+
+        <br><br>
+
+
+
+        <label for="city">City:</label>
+
+        <select
+            id="city"
+            name="city"
+        >
+
+            <option value="">
+                -- Select City --
+            </option>
+
+            <option value="delhi">
+                Delhi
+            </option>
+
+            <option value="gurgaon">
+                Gurgaon
+            </option>
+
+            <option value="noida">
+                Noida
+            </option>
+
+            <option value="ghaziabad">
+                Ghaziabad
+            </option>
+
+        </select>
+
+        <br><br>
+
+
+
+        <label for="address">Address:</label>
+
+        <br>
+
+        <textarea
+            id="address"
+            name="address"
+            rows="5"
+            cols="40"
+            placeholder="Enter your complete address"
+        ></textarea>
+
+        <br><br>
+
+
+       
+
+        <input
+            type="submit"
+            value="Register"
+        >
+
+        <input
+            type="reset"
+            value="Reset"
+        >
+
+    </form>
+
+
+    <hr>
+
+
+   
+    <h2>Course Details</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Course</th>
+            <th>Duration</th>
+            <th>Fees</th>
+        </tr>
+
+        <tr>
+            <td>HTML</td>
+            <td>1 Month</td>
+            <td>₹2000</td>
+        </tr>
+
+        <tr>
+            <td>CSS</td>
+            <td>1 Month</td>
+            <td>₹2500</td>
+        </tr>
+
+        <tr>
+            <td>JavaScript</td>
+            <td>2 Months</td>
+            <td>₹5000</td>
+        </tr>
+
+        <tr>
+            <td>React</td>
+            <td>2 Months</td>
+            <td>₹6000</td>
+        </tr>
+
+    </table>
+
+
+    <br>
+
+    <hr>
+
+
+   
+
+    <h2>Class Schedule</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+            <th>Time</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>HTML</td>
+            <td>10:00 AM</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>CSS</td>
+            <td>10:00 AM</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>JavaScript</td>
+            <td>11:00 AM</td>
+        </tr>
+
+        <tr>
+            <td>Thursday</td>
+            <td>React</td>
+            <td>11:00 AM</td>
+        </tr>
+
+    </table>
+
+
+    <br>
+
+    <hr>
+
+
+   
+    <h2>Student Performance</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td>HTML</td>
+            <td>85</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td>CSS</td>
+            <td>78</td>
+            <td>B+</td>
+        </tr>
+
+        <tr>
+            <td>JavaScript</td>
+            <td>92</td>
+            <td>A+</td>
+        </tr>
+
+        <tr>
+            <td>React</td>
+            <td>88</td>
+            <td>A</td>
+        </tr>
+
+    </table>
+
+
+   
+
+    <hr>
+
+    <p>
+        © 2026 XYZ Institute. All Rights Reserved.
+    </p>
+
+</body>
+</html>
